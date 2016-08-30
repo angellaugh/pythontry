@@ -19,3 +19,8 @@ a little try
 git fetch --all  
 git reset --hard origin/master 
 git pull
+
+
+# clone别人的仓库
+git clone https://github.com/lilei/english
+
