@@ -31,5 +31,6 @@ print(event.findNext('a').text, file = file1)
 Don't forget, in python3 use w is enough, needn't wb or wt or others!
 
 1.“写”模式会重写文件。传递mode='w'参数给open()函数。
+
 2.“追加”模式会在文件末尾添加数据。传递mode='a'参数给open()函数。
 
