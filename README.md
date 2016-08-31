@@ -24,3 +24,9 @@ git pull
 # clone别人的仓库
 git clone https://github.com/lilei/english
 
+
+# python3 用 “w” is enough
+file1 = open("LiveNews" + crFile + ".txt", 'w')
+print(event.findNext('a').text, file = file1)
+Don't forget, in python3 use w is enough, needn't wb or wt or others!
+
